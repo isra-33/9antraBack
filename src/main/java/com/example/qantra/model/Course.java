@@ -15,6 +15,7 @@ public class Course {
     private Long id;
 
     private String title;
+    @Lob
     private String image;
     private Double price;
 }
